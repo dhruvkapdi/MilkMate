@@ -29,6 +29,9 @@ import FarmerBilling from "@/pages/farmer/FarmerBilling";
 
 import AdminSupportTicketsPage from "@/pages/admin/AdminSupportTicketsPage";
 
+import ForgotPassword from "./pages/ForgotPassword";
+import ResetPassword from "./pages/ResetPassword";
+
 const queryClient = new QueryClient();
 
 const NavbarWrapper = () => {
@@ -114,6 +117,9 @@ const App = () => (
                   </AuthRedirect>
                 }
               />
+
+              <Route path="/forgot-password" element={<ForgotPassword />} />
+              <Route path="/reset-password" element={<ResetPassword />} />
 
               <Route
                 path="/farmer"
