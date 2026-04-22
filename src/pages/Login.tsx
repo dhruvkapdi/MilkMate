@@ -115,6 +115,15 @@ const Login = () => {
               </div>
             </motion.div>
 
+            <div className="flex justify-end mt-2">
+            <Link
+              to="/forgot-password"
+              className="text-xs text-primary hover:underline"
+            >
+              Forgot Password?
+            </Link>
+           </div>
+
             <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.45 }}>
               <label className="flex items-center gap-2 cursor-pointer select-none">
                 <input
