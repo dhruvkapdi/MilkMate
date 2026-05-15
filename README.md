@@ -106,7 +106,7 @@ Payment Gateway (Razorpay)
 
 Clone repository
 
-git clone https://github.com/yourusername/milkmate.git
+git clone https://github.com/dhruvkapdi/milkmate.git
 
 Enter project
 
